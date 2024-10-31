@@ -11,7 +11,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #2d2d2d;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   scroll-behavior: smooth;
 
   /* border: 1px solid green; */
@@ -28,6 +28,14 @@
 .purple-text {
   color: #663399;
   font-weight: 600;
+}
+
+.nav-links-hover:hover {
+  color: #663399;
+}
+
+.nav-button-hover:hover {
+  background-color: #553177;
 }
 
 /* ====== navigation panel ====== */
@@ -61,6 +69,7 @@
 
 .nav__list-el-link {
   font-size: 20px;
+  padding: 10px 0px;
 }
 
 .nav__button {
