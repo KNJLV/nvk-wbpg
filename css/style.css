@@ -25,17 +25,22 @@
   box-shadow: 0px 15px 0px 0px rgba(219, 208, 231, 1);
 }
 
-.purple-text {
-  color: #663399;
-  font-weight: 600;
-}
-
 .nav-links-hover:hover {
   color: #663399;
 }
 
 .nav-button-hover:hover {
   background-color: #553177;
+}
+
+.purple-text {
+  color: #663399;
+  font-weight: 600;
+}
+
+.bold-text {
+  font-weight: 600;
+  color: #557534;
 }
 
 /* ====== navigation panel ====== */
@@ -151,6 +156,8 @@
   color: #2d2d2d;
 }
 
+/* ====== section differ ====== */
+
 .section-differ__list {
   display: flex;
   flex-direction: row;
@@ -201,4 +208,111 @@
 
 .section-differ__list-card:last-child > img {
   width: 6vw;
+}
+
+/* ====== section supervisor ====== */
+
+.section__supervisor {
+  background-color: #ecf2e6;
+  min-height: 100%;
+  margin-top: 150px;
+  padding-bottom: 150px;
+}
+
+.section__supervisor-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.section__supervisor-title-str {
+  font-size: 80px;
+  font-weight: 600;
+  color: #a9c58c;
+}
+
+.section__supervisor-title-str:nth-child(2) {
+  font-size: 40px;
+  letter-spacing: 10px;
+  color: #2d2d2d;
+}
+
+.section__supervisor-wrapper {
+  max-width: 1700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.section__supervisor-content {
+  min-height: 700px;
+  height: 100%;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px 5px;
+}
+
+.section__supervisor-content-card {
+  min-height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 64px;
+  padding-right: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding-bottom: 5px;
+}
+
+.section__supervisor-content-card:nth-child(1) {
+  max-width: 880px;
+  min-width: 25%;
+}
+
+.section__supervisor-content-card:nth-child(2) {
+  max-width: 970px;
+}
+
+.section__supervisor-content-card:nth-child(3) {
+  max-width: 760px;
+}
+
+.section__supervisor-content-card:nth-child(4) {
+  max-width: 970px;
+}
+
+.section__supervisor-content-card:nth-child(5) {
+  max-width: 100%;
+}
+
+.section__supervisor-content-card-text {
+  font-size: 24px;
+  padding: 10px 5px;
+}
+
+.section__supervisor-content-card-logo {
+  margin-left: 10px;
+  width: 100%;
+  min-width: 30%;
+}
+
+.section__supervisor-content-card:nth-child(1) > img {
+  width: 45%;
+}
+
+.section__supervisor-content-card:nth-child(3) > img {
+  width: 25vw;
+}
+
+.section__supervisor-books {
+  width: 100%;
+  min-width: 45%;
 }
