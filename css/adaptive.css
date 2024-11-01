@@ -41,6 +41,10 @@
 
   /* ====== header ====== */
 
+  .header-wrapper {
+    padding: 0px;
+  }
+
   .header__upper-title-str {
     font-size: 52px;
     font-weight: 700;
