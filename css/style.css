@@ -122,10 +122,7 @@
 
 .header__upper-title-mascot {
   width: 40%;
-}
-
-.header {
-  display: flex;
+  align-self: flex-end;
 }
 
 .header__lower {
@@ -273,11 +270,10 @@
   padding-right: 10px;
   background-color: #fff;
   border-radius: 20px;
-  padding-bottom: 5px;
 }
 
 .section__supervisor-content-card:nth-child(1) {
-  max-width: 880px;
+  max-width: 750px;
   min-width: 25%;
 }
 
@@ -286,11 +282,11 @@
 }
 
 .section__supervisor-content-card:nth-child(3) {
-  max-width: 760px;
+  max-width: 700px;
 }
 
 .section__supervisor-content-card:nth-child(4) {
-  max-width: 970px;
+  max-width: 850px;
 }
 
 .section__supervisor-content-card:nth-child(5) {
@@ -305,15 +301,23 @@
 .section__supervisor-content-card-logo {
   margin-left: 10px;
   width: 100%;
-  min-width: 30%;
+  min-width: 25%;
 }
 
 .section__supervisor-content-card:nth-child(1) > img {
   width: 45%;
 }
 
+.section__supervisor-content-card:nth-child(2) > img {
+  width: 20vw;
+}
+
 .section__supervisor-content-card:nth-child(3) > img {
-  width: 25vw;
+  width: 20vw;
+}
+
+.section__supervisor-content-card:nth-child(4) > img {
+  width: 30vw;
 }
 
 .section__supervisor-books {
