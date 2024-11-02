@@ -314,6 +314,8 @@
 
 .section__supervisor-content-card:nth-child(3) > img {
   width: 20vw;
+
+  border-radius: 30px;
 }
 
 .section__supervisor-content-card:nth-child(4) > img {
