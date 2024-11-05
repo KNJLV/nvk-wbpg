@@ -256,7 +256,7 @@
   }
 
   .header__lower {
-    height: 300px;
+    height: 350px;
   }
 
   /* ====== section differ ====== */
@@ -293,7 +293,7 @@
   /* ====== section supervisor ====== */
 
   .header__lower {
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 
   .section__supervisor-title {

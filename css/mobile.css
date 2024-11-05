@@ -1,9 +1,9 @@
 @media (max-device-width: 900px) {
   /* ====== general ====== */
-  .shadow {
-    -webkit-box-shadow: 0px 2vw 0px 0px rgba(219, 208, 231, 1);
-    -moz-box-shadow: 0px 2vw 0px 0px rgba(219, 208, 231, 1);
-    box-shadow: 0px 2vw 0px 0px rgba(219, 208, 231, 1);
+  .purple-shadow {
+    -webkit-box-shadow: 0vw 2vw 0vw 0vw rgba(219, 208, 231, 1);
+    -moz-box-shadow: 0vw 2vw 0vw 0vw rgba(219, 208, 231, 1);
+    box-shadow: 0vw 2vw 0pvw 0vw rgba(219, 208, 231, 1);
   }
 
   /* ====== navigation panel ====== */
@@ -60,53 +60,62 @@
   /* ====== section differ ====== */
 
   .section-differ__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
     max-width: 100%;
     padding: 0vw 3vw;
     min-width: 0vw;
     gap: 7vw;
-    justify-content: center;
-    align-items: center;
     margin: 2.5vw 0vw;
-    gap: 3vw;
+    gap: 5vw;
+    padding-bottom: 2vw;
+  }
+
+  .section-differ__list-card:nth-child(2n) {
+    align-self: end;
   }
 
   .section-differ__list-card {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex: 1 0 100%;
-    min-height: 30vw;
+    /* flex: 1 0 100%; */
+    min-height: 22.5vw;
     padding: 3.5vw;
-    width: 100vw;
+    width: 85%;
     border-radius: 5vw;
   }
 
   .section-differ__list-card-list-el {
-    font-size: 4vw;
+    font-size: 3vw;
     display: flex;
     flex-wrap: wrap;
   }
 
   .section-differ__list-card:nth-child(1) > img {
-    width: 45vw;
+    width: 40vw;
     align-self: center;
     margin-top: 0px;
   }
 
   .section-differ__list-card:nth-child(2) > img {
-    width: 25vw;
+    width: 20vw;
     align-self: center;
     margin-left: 4vw;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .section-differ__list-card:nth-child(3) > img {
-    width: 30vw;
+    width: 25vw;
     align-self: center;
     margin-top: 0;
   }
 
   .section-differ__list-card:nth-child(4) > img {
-    width: 22.5vw;
+    width: 18vw;
     align-self: center;
   }
 
@@ -120,7 +129,7 @@
   .section__supervisor {
     width: 100%;
     min-height: 100%;
-    margin-top: 20vw;
+    margin-top: 8vw;
     padding-bottom: 20vw;
   }
 
