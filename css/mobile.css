@@ -12,6 +12,12 @@
     box-shadow: 0px 2.5vw 0px 0px #ffe2a9;
   }
 
+  .green-shadow {
+    -webkit-box-shadow: 0px 2.5vw 0px 0px #c4d3b5;
+    -moz-box-shadow: 0px 2.5vw 0px 0px #c4d3b5;
+    box-shadow: 0px 2.5vw 0px 0px #c4d3b5;
+  }
+
   /* ====== navigation panel ====== */
 
   .nav-wraper {
@@ -197,6 +203,7 @@
   .section-feedback {
     min-width: 100%;
     min-height: 100%;
+    padding-bottom: 20vw;
   }
   .section-feedback-wrapper {
     gap: 10vw 0;
@@ -243,5 +250,98 @@
     margin-left: 5vw;
     width: 100%;
     text-align: center;
+  }
+
+  /* ====== section course ====== */
+  .section-course__list {
+    min-width: 100%;
+    gap: 8vw 0vw;
+    padding: 0vw 2vw;
+  }
+  .section-course-wrapper {
+    width: 100%;
+    min-width: 100%;
+  }
+  .section-course__list-card {
+    min-width: 100%;
+    min-height: 100%;
+    padding: 6vw;
+    gap: 5vw 0vw;
+    border-radius: 8vw;
+  }
+  .section-course__list-card-footer-buttons {
+    flex-direction: column;
+    gap: 3vw 0vw;
+  }
+  .section-course__list-card-description-el {
+    font-size: 3.25vw;
+  }
+  .section-course__list-card-header-left-str-title {
+    font-size: 7vw;
+  }
+  .section-course__list-card-header-left-str-subtitle {
+    font-size: 5vw;
+  }
+  .section-course__list-card-header-left-str-hashtag {
+    font-size: 2.5vw;
+    padding: 1vw 2vw;
+    margin-left: 2vw;
+  }
+  .section-course__list-card-footer-buttons > button {
+    font-size: 3.5vw;
+    padding: 1.75vw 4vw;
+    border-radius: 6vw;
+    border: 0.75vw solid #663399;
+  }
+  .section-course__list-card-footer-price {
+    font-size: 4vw;
+  }
+  .section-course__list-card-footer-price > span {
+    font-size: 6vw;
+  }
+  .section-course__list-card-footer-soon > p {
+    font-size: 7vw;
+  }
+  .section-course__list-card-footer-free > p {
+    font-size: 5vw;
+  }
+
+  #lectory-icon {
+    width: 40vw;
+  }
+
+  #puzzle-icon {
+    width: 15vw;
+  }
+  .section-course {
+    padding: 12.5vw 2vw;
+  }
+  .section-course__list-card-header-icon {
+    width: 25vw;
+  }
+  .section-course__list-card:nth-child(2)
+    > .section-course__list-card-header
+    > .section-course__list-card-header-left
+    > .section-course__list-card-header-left-str
+    > .section-course__list-card-header-left-str-title {
+    font-size: 10vw;
+  }
+  .section-course__title {
+    font-size: 10vw;
+    min-width: 100%;
+    padding-bottom: 7.5vw;
+  }
+  #green-button-more {
+    border: 0.75vw solid #9fc478;
+  }
+  .section-course__list-card:nth-child(2)
+    > .section-course__list-card-header
+    > .section-course__list-card-header-left
+    > .section-course__list-card-header-left-str
+    > .section-course__list-card-header-left-str-title {
+    font-size: 7vw;
+  }
+  .section-course__list-card-description-el > span {
+    padding-right: 1vw;
   }
 }
