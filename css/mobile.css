@@ -273,6 +273,9 @@
     flex-direction: column;
     gap: 3vw 0vw;
   }
+  .section-course__list-card-description {
+    gap: 2vw 0;
+  }
   .section-course__list-card-description-el {
     font-size: 3.25vw;
   }
