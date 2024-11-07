@@ -348,6 +348,14 @@
     padding-right: 1vw;
   }
 
+  .section-course__list-card:nth-child(3)
+    > .section-course__list-card-header
+    > .section-course__list-card-header-left
+    > .section-course__list-card-header-left-str
+    > .section-course__list-card-header-left-str-title {
+    font-size: 6.5vw;
+  }
+
   /* =========== */
 
   .section-form {
@@ -390,19 +398,19 @@
     width: 45%;
     height: 12.5vw;
     border: 0.75vw solid #663399;
+    font-size: 5vw;
+    border-radius: 5vw;
   }
+
   .section-form__form-left-button {
     font-size: 5vw;
     width: 60vw;
     height: 17.5vw;
   }
-  .section-form__form-left-slider-parent,
-  .section-form__form-left-slider-student {
-    font-size: 5vw;
-  }
+
   .section-form__form-left-accept-text {
     font-size: 4vw;
-    width: 75%;
+    width: 65%;
   }
   .section-form__form-left-accept-text-link {
     font-size: 4vw;
@@ -410,6 +418,7 @@
   .checkbox-view {
     width: 6vw;
     height: 6vw;
+    border-radius: 1.25vw;
   }
   .section-form__form {
     padding: 10vw 2vw;
