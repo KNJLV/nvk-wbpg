@@ -11,7 +11,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #2d2d2d;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   scroll-behavior: smooth;
 
   /* border: 1px solid green; */
@@ -45,8 +45,24 @@ body {
   color: #663399;
 }
 
-.nav-button-hover:hover {
-  background-color: #553177;
+.button-colorful-purple-hover:hover {
+  background-color: #4d2770;
+  cursor: pointer;
+}
+
+.button-colorless-purple-hover:hover {
+  background-color: #663399;
+  color: #fff;
+  cursor: pointer;
+}
+
+.underline-hover:hover {
+  text-decoration: underline;
+}
+
+.scale-hover:hover {
+  transform: scale(115%);
+  cursor: pointer;
 }
 
 .purple-text {
@@ -622,9 +638,20 @@ body {
   border: 4px solid #a9c58c;
 }
 
+#green-button-more:hover {
+  background-color: #a9c58c;
+  color: #fff;
+  cursor: pointer;
+}
+
 #green-button-enroll {
   background-color: #9fc478;
   border: 4px solid #9fc478;
+}
+
+#green-button-enroll:hover {
+  background-color: #759158;
+  cursor: pointer;
 }
 
 /* ====== section form ====== */
@@ -710,6 +737,12 @@ body {
   border-radius: 30px;
 }
 
+.section-form__form-left-slider-parent:focus,
+.section-form__form-left-slider-student:focus {
+  background-color: #663399;
+  color: #fff;
+}
+
 .section-form__form-left-main {
   display: flex;
   flex-direction: column;
@@ -738,6 +771,10 @@ body {
   border-bottom: 2px solid #2d2d2d;
   font-size: 20px;
   padding-left: 15px;
+}
+
+.section-form__form-left-main-select:hover {
+  cursor: pointer;
 }
 
 .section-form__form-left-main-select {
