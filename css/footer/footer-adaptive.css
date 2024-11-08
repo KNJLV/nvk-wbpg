@@ -8,16 +8,16 @@
   .footer__block-list-el-link {
     font-size: 18px;
   }
-
   .footer__block {
     width: 400px;
     height: 200px;
   }
-
   .footer__block-partner-img {
     width: 125px;
   }
 }
+
+/* ============================== */
 
 @media (max-width: 1280px) {
   .footer__block {
@@ -29,10 +29,11 @@
   }
 }
 
+/* ============================== */
+
 @media (max-width: 900px) {
   .footer__block {
     width: 90%;
-    /* height: 200px; */
   }
   .footer {
     min-width: 600;

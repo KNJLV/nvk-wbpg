@@ -2,24 +2,22 @@
   .section-differ__list-card-list-el {
     font-size: 18px;
   }
-
   .section-differ__list-card-img {
     width: 15vw;
     align-self: flex-end;
   }
-
   .section-differ__list-card:nth-child(2) > img {
     width: 8vw;
   }
-
   .section-differ__list-card:nth-child(3) > img {
     width: 8vw;
   }
-
   .section-differ__list-card:last-child > img {
     width: 6vw;
   }
 }
+
+/* ============================== */
 
 @media (max-width: 1280px) {
   .section-differ__list {
@@ -28,57 +26,48 @@
     padding: 0px 50px;
     gap: 30px;
   }
-
   .section-differ__list-card {
     flex: 1 0 40%;
   }
-
   .section-differ__list-card:nth-child(1) > img {
     margin-top: -10px;
   }
-
   .section-differ__list-card:nth-child(2) > img {
     width: 9vw;
     margin-top: -20px;
   }
-
   .section-differ__list-card:nth-child(3) > img {
     width: 10vw;
     margin-top: -25px;
   }
-
   .section-differ__list-card:nth-child(4) > img {
     width: 7.5vw;
     margin-top: -10px;
   }
 }
 
+/* ============================== */
+
 @media (max-width: 900px) {
   .section-differ__list {
     gap: 20px 0px;
     padding: 0px 25px;
   }
-
   .section-differ__list-card {
     min-height: 125px;
   }
-
   .section-differ__list-card-list-el {
     font-size: 16px;
   }
-
   .section-differ__list-card:nth-child(1) > img {
     width: 100px;
   }
-
   .section-differ__list-card:nth-child(2) > img {
     width: 60px;
   }
-
   .section-differ__list-card:nth-child(3) > img {
     width: 70px;
   }
-
   .section-differ__list-card:nth-child(4) > img {
     width: 50px;
   }
