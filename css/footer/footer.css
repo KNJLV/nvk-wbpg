@@ -45,3 +45,6 @@
   color: #b6b6b6;
   font-size: 20px;
 }
+.footer__block-partner-link:hover {
+  transform: scale(120%);
+}
