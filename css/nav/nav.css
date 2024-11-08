@@ -1,0 +1,39 @@
+.nav {
+  border-radius: 0px 0px 50px 50px;
+}
+
+.nav-wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 0px 30px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  min-width: 550px;
+  padding: 0px 10px;
+}
+
+.nav__list-el {
+  padding: 5px;
+}
+
+.nav__list-el-link {
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+.nav__button {
+  font-size: 20px;
+  color: #fff;
+  background-color: #663399;
+  padding: 10px 20px;
+  border-radius: 30px;
+}

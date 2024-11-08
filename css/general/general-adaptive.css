@@ -1,0 +1,19 @@
+@media (max-width: 1550px) {
+  .purple-shadow {
+    -webkit-box-shadow: 0px 10px 0px 0px rgba(219, 208, 231, 1);
+    -moz-box-shadow: 0px 10px 0px 0px rgba(219, 208, 231, 1);
+    box-shadow: 0px 10px 0px 0px rgba(219, 208, 231, 1);
+  }
+
+  .yellow-shadow {
+    -webkit-box-shadow: 0px 10px 0px 0px #ffe2a9;
+    -moz-box-shadow: 0px 10px 0px 0px #ffe2a9;
+    box-shadow: 0px 10px 0px 0px #ffe2a9;
+  }
+
+  .green-shadow {
+    -webkit-box-shadow: 0px 10px 0px 0px #c4d3b5;
+    -moz-box-shadow: 0px 10px 0px 0px #c4d3b5;
+    box-shadow: 0px 10px 0px 0px #c4d3b5;
+  }
+}

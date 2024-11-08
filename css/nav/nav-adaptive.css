@@ -1,0 +1,43 @@
+@media (max-width: 1550px) {
+  .nav-wraper {
+    height: 55px;
+    padding: 0px 40px;
+  }
+
+  .nav__list {
+    min-width: 125px;
+    padding: 0px 10px;
+  }
+
+  .nav__list-el {
+    padding: 0px 15px;
+  }
+
+  .nav__logo {
+    width: 125px;
+  }
+
+  .nav__list-el-link {
+    font-size: 16px;
+  }
+
+  .nav__button {
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .nav__list {
+    width: 55%;
+    min-width: 500px;
+    padding: 0px 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav__list {
+    display: none;
+  }
+}

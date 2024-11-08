@@ -1,0 +1,38 @@
+@media (max-width: 1550px) {
+  .section__supervisor-content-card-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .section__supervisor-content-card-text {
+    font-size: 18px;
+  }
+
+  .section__supervisor-content-card-logo {
+    min-width: 30%;
+  }
+
+  .section__supervisor-content-card {
+    padding-left: 32px;
+  }
+
+  .section__supervisor-title-str {
+    font-size: 55px;
+  }
+
+  .section__supervisor-title-str:nth-child(2) {
+    font-size: 25px;
+    letter-spacing: 8px;
+  }
+}
+
+@media (max-width: 900px) {
+  .section__supervisor-wrapper,
+  .section__supervisor-title {
+    min-width: 900px;
+  }
+  .section__supervisor-title {
+    padding: 40px 10px;
+  }
+}

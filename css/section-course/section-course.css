@@ -1,0 +1,219 @@
+.section-course {
+  background-color: #f0ebf5;
+  padding: 100px 20px;
+}
+
+.section-course-wrapper {
+  width: 100%;
+  min-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-course__title {
+  font-size: 70px;
+  color: #ab8ec6;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 75px;
+}
+
+.section-course__list {
+  /* margin: 0 auto; */
+  max-width: 1500px;
+  min-width: 1280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px 20px;
+  padding: 0px 20px;
+}
+
+.section-course__list-card {
+  max-width: 700px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 20px;
+  gap: 15px 0px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.section-course__list-card-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-course__list-card-header-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.section-course__list-card-header-left-str {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.section-course__list-card-header-left-str-title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #663399;
+}
+
+.section-course__list-card:nth-child(3)
+  > .section-course__list-card-header
+  > .section-course__list-card-header-left
+  > .section-course__list-card-header-left-str
+  > .section-course__list-card-header-left-str-title {
+  font-size: 50px;
+}
+
+.section-course__list-card-header-left-str-subtitle {
+  font-size: 40px;
+  font-weight: 600;
+  color: #663399;
+}
+
+.section-course__list-card-header-left-str-hashtag {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #ece7f8;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.section-course__list-card-header-icon {
+  width: 150px;
+}
+
+.section-course__list-card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.section-course__list-card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-course__list-card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px 0px;
+}
+
+.section-course__list-card-description-el {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.section-course__list-card-description-el > span {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.section-course__list-card-footer-price {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section-course__list-card-footer-price > span {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px 5px;
+}
+
+.section-course__list-card-footer-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+}
+
+.section-course__list-card-footer-buttons > button {
+  font-size: 24px;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+
+.section-course__list-card-footer-buttons-more {
+  background-color: #fff;
+  border: 4px solid #663399;
+}
+
+.section-course__list-card-footer-buttons-enroll {
+  color: #fff;
+  font-weight: 600;
+  background-color: #663399;
+  border: 4px solid #663399;
+}
+
+.section-course__list-card:nth-child(2)
+  > .section-course__list-card-header
+  > .section-course__list-card-header-left
+  > .section-course__list-card-header-left-str
+  > .section-course__list-card-header-left-str-title {
+  font-size: 54px;
+}
+
+.section-course__list-card-footer-soon > p,
+.section-course__list-card-footer-free > p {
+  font-size: 40px;
+  font-weight: 600;
+  color: #808080;
+}
+
+.section-course__list-card-footer-free > p {
+  font-size: 32px;
+  color: #2d2d2d;
+}
+
+#lectory-icon {
+  width: 50%;
+}
+
+#puzzle-icon {
+  width: 20%;
+}
+
+#green-button-more {
+  border: 4px solid #a9c58c;
+}
+
+#green-button-more:hover {
+  background-color: #a9c58c;
+  color: #fff;
+  cursor: pointer;
+}
+
+#green-button-enroll {
+  background-color: #9fc478;
+  border: 4px solid #9fc478;
+}
+
+#green-button-enroll:hover {
+  background-color: #759158;
+  cursor: pointer;
+}
