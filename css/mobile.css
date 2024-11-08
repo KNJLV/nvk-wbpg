@@ -363,6 +363,7 @@
     width: 100%;
     min-height: 100%;
     min-width: 100%;
+    padding-bottom: 25vw;
   }
   .section-form__title {
     font-size: 8vw;
@@ -444,6 +445,10 @@
   .section-form__form-right-social-icon {
     width: 12vw;
     margin-left: 4vw;
+  }
+  .section-form__form-left-main-select {
+    background-image: url(../assets/section-form/select-arrow-icon.png);
+    background-size: 5vw;
   }
   /* ============== */
   .footer {
