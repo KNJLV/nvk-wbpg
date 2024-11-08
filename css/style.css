@@ -854,11 +854,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-image: url(../assets/footer/puzzle-texture.svg);
-  background-size: 175%;
-  background-repeat: repeat;
-  background-position: 60% 50%; */
-  /* transform: rotate(30%); */
+  background-image: url(../assets/footer/puzzle-texture-footer.png);
+  /* background-size: 100%; */
+  background-repeat: repeat-y repeat-x;
 }
 
 .footer-wrapper {
