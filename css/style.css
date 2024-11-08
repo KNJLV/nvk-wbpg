@@ -14,7 +14,7 @@
   transition: all 0.2s ease;
   scroll-behavior: smooth;
 
-  /* border: 1px solid green; */
+  border: 1px solid green;
   /* transition: 0.1s ease-in-out; */
 }
 
@@ -807,4 +807,62 @@ body {
 
 .checkbox:checked + .checkbox-view .checkbox-icon {
   opacity: 1;
+}
+
+/* ============== */
+
+.footer {
+  min-height: 835px;
+  background-color: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../assets/footer/puzzle-texture.svg);
+  background-size: 175%;
+  background-repeat: repeat;
+  background-position: 60% 50%; */
+  /* transform: rotate(30%); */
+}
+
+.footer-wrapper {
+  max-width: 1500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 75px 20px;
+  padding: 125px 0px;
+}
+
+.footer__block {
+  width: 425px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.footer__block-title {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer__block-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7.5px 0px;
+}
+
+.footer__block-list-el {
+  color: #b6b6b6;
+}
+
+.footer__block-list-el-link {
+  color: #b6b6b6;
+  font-size: 20px;
 }
