@@ -5,7 +5,6 @@
   padding-bottom: 150px;
   overflow: hidden;
 }
-
 .section__supervisor-title {
   width: 100%;
   display: flex;
@@ -13,19 +12,16 @@
   align-items: center;
   padding: 80px 20px;
 }
-
 .section__supervisor-title-str {
   font-size: 80px;
   font-weight: 600;
   color: #a9c58c;
 }
-
 .section__supervisor-title-str:nth-child(2) {
   font-size: 40px;
   letter-spacing: 10px;
   color: #2d2d2d;
 }
-
 .section__supervisor-wrapper {
   max-width: 1700px;
   display: flex;
@@ -35,7 +31,6 @@
   margin: 0 auto;
   padding: 0px 20px;
 }
-
 .section__supervisor-content {
   min-height: 700px;
   height: 100%;
@@ -45,7 +40,6 @@
   justify-content: space-between;
   gap: 20px 5px;
 }
-
 .section__supervisor-content-card {
   min-height: 120px;
   display: flex;
@@ -57,57 +51,44 @@
   background-color: #fff;
   border-radius: 20px;
 }
-
 .section__supervisor-content-card:nth-child(1) {
   max-width: 750px;
   min-width: 25%;
 }
-
 .section__supervisor-content-card:nth-child(2) {
   max-width: 970px;
 }
-
 .section__supervisor-content-card:nth-child(3) {
   max-width: 700px;
 }
-
 .section__supervisor-content-card:nth-child(4) {
   max-width: 850px;
 }
-
 .section__supervisor-content-card:nth-child(5) {
   max-width: 100%;
 }
-
 .section__supervisor-content-card-text {
   font-size: 24px;
   padding: 10px 5px;
 }
-
 .section__supervisor-content-card-logo {
   margin-left: 10px;
   width: 100%;
   min-width: 25%;
 }
-
 .section__supervisor-content-card:nth-child(1) > img {
   width: 45%;
 }
-
 .section__supervisor-content-card:nth-child(2) > img {
   width: 20vw;
 }
-
 .section__supervisor-content-card:nth-child(3) > img {
   width: 20vw;
-
   border-radius: 30px;
 }
-
 .section__supervisor-content-card:nth-child(4) > img {
   width: 30vw;
 }
-
 .section__supervisor-books {
   width: 100%;
   min-width: 45%;

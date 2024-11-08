@@ -10,7 +10,6 @@
   padding: 0px 25px;
   margin: 40px auto;
 }
-
 .section-differ__list-card {
   width: 550px;
   height: 13vw;
@@ -23,32 +22,26 @@
   border-radius: 20px;
   margin: 0px 10px;
 }
-
 .section-differ__list-card-list {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
 }
-
 .section-differ__list-card-list-el {
   font-size: 24px;
 }
-
 .section-differ__list-card-img {
   width: 12vw;
   align-self: flex-end;
 }
-
 .section-differ__list-card:nth-child(2) > img {
   width: 8vw;
   margin-bottom: -10px;
 }
-
 .section-differ__list-card:nth-child(3) > img {
   width: 8vw;
 }
-
 .section-differ__list-card:last-child > img {
   width: 6vw;
 }

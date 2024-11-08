@@ -10,23 +10,23 @@
 }
 
 /* временное решение для размера окна < 900px */
+
 body {
   overflow-x: hidden;
 }
 
 /* ====== shadows ====== */
+
 .purple-shadow {
   -webkit-box-shadow: 0px 15px 0px 0px rgba(219, 208, 231, 1);
   -moz-box-shadow: 0px 15px 0px 0px rgba(219, 208, 231, 1);
   box-shadow: 0px 15px 0px 0px rgba(219, 208, 231, 1);
 }
-
 .yellow-shadow {
   -webkit-box-shadow: 0px 15px 0px 0px #ffe2a9;
   -moz-box-shadow: 0px 15px 0px 0px #ffe2a9;
   box-shadow: 0px 15px 0px 0px #ffe2a9;
 }
-
 .green-shadow {
   -webkit-box-shadow: 0px 15px 0px 0px #c4d3b5;
   -moz-box-shadow: 0px 15px 0px 0px #c4d3b5;
@@ -38,33 +38,29 @@ body {
 .nav-links-hover:hover {
   color: #663399;
 }
-
 .button-colorful-purple-hover:hover {
   background-color: #4d2770;
   cursor: pointer;
 }
-
 .button-colorless-purple-hover:hover {
   background-color: #663399;
   color: #fff;
   cursor: pointer;
 }
-
 .underline-hover:hover {
   text-decoration: underline;
 }
-
 .scale-hover:hover {
   transform: scale(115%);
   cursor: pointer;
 }
 
 /* ====== special text color ====== */
+
 .purple-text {
   color: #663399;
   font-weight: 600;
 }
-
 .bold-text {
   font-weight: 600;
   color: #557534;

@@ -54,11 +54,9 @@
   .section-course__list-card-footer-free > p {
     font-size: 5vw;
   }
-
   #lectory-icon {
     width: 40vw;
   }
-
   #puzzle-icon {
     width: 15vw;
   }
@@ -93,7 +91,6 @@
   .section-course__list-card-description-el > span {
     padding-right: 1vw;
   }
-
   .section-course__list-card:nth-child(3)
     > .section-course__list-card-header
     > .section-course__list-card-header-left

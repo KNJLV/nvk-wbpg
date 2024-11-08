@@ -12,34 +12,28 @@
     gap: 5vw;
     padding-bottom: 2vw;
   }
-
   .section-differ__list-card:nth-child(2n) {
     align-self: end;
   }
-
   .section-differ__list-card {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* flex: 1 0 100%; */
     min-height: 22.5vw;
     padding: 3.5vw;
     width: 85%;
     border-radius: 5vw;
   }
-
   .section-differ__list-card-list-el {
     font-size: 3vw;
     display: flex;
     flex-wrap: wrap;
   }
-
   .section-differ__list-card:nth-child(1) > img {
     width: 40vw;
     align-self: center;
     margin-top: 0px;
   }
-
   .section-differ__list-card:nth-child(2) > img {
     width: 20vw;
     align-self: center;
@@ -47,18 +41,15 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-
   .section-differ__list-card:nth-child(3) > img {
     width: 25vw;
     align-self: center;
     margin-top: 0;
   }
-
   .section-differ__list-card:nth-child(4) > img {
     width: 18vw;
     align-self: center;
   }
-
   .section-differ__list-card:nth-child(2),
   .section-differ__list-card:nth-child(4) {
     flex-direction: row-reverse;

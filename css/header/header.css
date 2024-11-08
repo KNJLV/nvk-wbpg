@@ -7,7 +7,6 @@
   align-items: center;
   overflow: hidden;
 }
-
 .header__upper {
   display: flex;
   justify-content: space-between;
@@ -17,26 +16,21 @@
   max-width: 1650px;
   padding: 0px 40px;
 }
-
 .header__upper-title-str {
   font-size: 64px;
   font-weight: 800;
 }
-
 .header__upper-title-str:nth-child(2) {
   color: #663399;
 }
-
 .header__upper-title-str:last-child {
   font-size: 30px;
   font-weight: 500;
 }
-
 .header__upper-title-mascot {
   width: 40%;
   align-self: flex-end;
 }
-
 .header__lower {
   display: flex;
   justify-content: space-between;
@@ -53,7 +47,6 @@
   background-size: contain;
   margin-bottom: 15px;
 }
-
 .header__lower-banner-text-str {
   font-size: 110px;
   font-weight: 900;
