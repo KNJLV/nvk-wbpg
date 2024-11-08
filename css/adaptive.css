@@ -631,7 +631,7 @@
   }
 
   .section-form__form {
-    min-width: 550px;
+    min-width: 550px; 
   }
   .section-form__title {
     min-width: 700px;
