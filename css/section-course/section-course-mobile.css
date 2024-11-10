@@ -36,7 +36,7 @@
     padding: 1vw 2vw;
     margin-left: 2vw;
   }
-  .section-course__list-card-footer-buttons > button {
+  .section-course__list-card-footer-buttons > a {
     font-size: 3.5vw;
     padding: 1.75vw 4vw;
     border-radius: 6vw;
