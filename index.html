@@ -27,10 +27,12 @@
             >
           </li>
           <li class="nav__list-el">
-            <a href="#" class="nav__list-el-link nav-links-hover">КУРСЫ</a>
+            <a href="#courses" class="nav__list-el-link nav-links-hover"
+              >КУРСЫ</a
+            >
           </li>
         </ul>
-        <a href="#" class="nav__button button-colorful-purple-hover"
+        <a href="#form" class="nav__button button-colorful-purple-hover"
           >Оставить заявку</a
         >
       </div>
@@ -196,7 +198,7 @@
       </div>
     </section>
     <!-- section course -->
-    <section class="section-course">
+    <section class="section-course" id="courses">
       <h1 class="section-course__title">КУРСЫ</h1>
       <div class="section-course-wrapper">
         <div class="section-course__list">
@@ -485,29 +487,51 @@
       </div>
     </section>
     <!-- sectino form -->
-    <section class="section-form">
+    <section class="section-form" id="form">
       <h1 class="section-form__title">ФОРМА ЗАЯВКИ</h1>
       <form class="section-form__form purple-shadow">
         <!-- form left: inputs, button etc. -->
         <div class="section-form__form-left">
           <div class="section-form__form-left-slider">
-            <button
-              class="section-form__form-left-slider-parent button-colorless-purple-hover">
-              Родитель
-            </button>
-            <button
-              class="section-form__form-left-slider-student button-colorless-purple-hover">
-              Ученик
-            </button>
+            <!-- student slider -->
+            <input type="radio" id="student-button" name="role" />
+            <label
+              for="student-button"
+              class="section-form__form-left-slider-student button-colorless-purple-hover"
+              >Ученик</label
+            >
+            <!-- parent slider -->
+            <input type="radio" id="parent-button" name="role" />
+            <label
+              for="parent-button"
+              class="section-form__form-left-slider-parent button-colorless-purple-hover"
+              >Родитель</label
+            >
           </div>
           <div class="section-form__form-left-main">
+            <!-- student inputs -->
             <input
               type="text"
               class="section-form__form-left-main-input"
+              id="studentName"
+              placeholder="Имя ученика" />
+            <input
+              type="tel"
+              data-tel-input
+              class="section-form__form-left-main-input"
+              id="studentPhoneNumber"
+              placeholder="Телефон ученика" />
+            <!-- parent inputs -->
+            <input
+              type="text"
+              class="section-form__form-left-main-input"
+              id="parentName"
               placeholder="Имя родителя" />
             <input
-              type="text"
+              type="tel"
+              data-tel-input
               class="section-form__form-left-main-input"
+              id="parentPhoneNumber"
               placeholder="Телефон родителя" />
             <input
               type="text"
@@ -680,5 +704,7 @@
         <div class="footer__block"></div>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/number-validation.js"></script>
   </body>
 </html>
