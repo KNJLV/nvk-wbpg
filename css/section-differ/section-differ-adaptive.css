@@ -1,3 +1,17 @@
+@media (min-width: 1921px) {
+  .section-differ__list-card-img {
+    max-width: 50%;
+  }
+  .section-differ__list-card:nth-child(2) > img {
+    max-width: 40%;
+  }
+  .section-differ__list-card:nth-child(3) > img {
+    max-width: 50%;
+  }
+  .section-differ__list-card:last-child > img {
+    max-width: 35%;
+  }
+}
 @media (max-width: 1550px) {
   .section-differ__list-card-list-el {
     font-size: 18px;
