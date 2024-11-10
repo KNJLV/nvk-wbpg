@@ -1,3 +1,5 @@
+// ========== Слайдер РОДИТЕЛЬ-УЧЕНИК ==========
+
 // DOMContentLoaded - для выполнения кода после загрузки DOM
 document.addEventListener("DOMContentLoaded", () => {
   // Ссылки на элементы
@@ -44,3 +46,27 @@ document.addEventListener("DOMContentLoaded", () => {
   parentRadioInput.addEventListener("change", updateFormState);
   studentRadioInput.addEventListener("change", updateFormState);
 });
+
+// ========== Генерация комментария в форме по курсу ==========
+
+// Кнопки в курсах "Записаться"
+let courses_button = document.querySelectorAll(
+  ".section-course__list-card-footer-buttons-enroll"
+);
+
+// Названия курсов
+let courses_name = document.querySelectorAll(
+  ".section-course__list-card-header-left-str-title"
+);
+
+// Перенос названия курса в комментарий формы
+for (let i = 0; i < courses_button.length; i++) {
+  courses_button[i].addEventListener("click", (e) => {
+    let id_pole = document.querySelector("#formComment");
+    if (i != 3) {
+      id_pole.value = `${courses_name[i].textContent.trim()} КУРС`;
+    } else if (i == 3) {
+      id_pole.value = `ОНЛАЙН-ЛЕКТОРИЙ`;
+    }
+  });
+}
