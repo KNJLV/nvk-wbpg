@@ -70,3 +70,51 @@ for (let i = 0; i < courses_button.length; i++) {
     }
   });
 }
+
+// ==================================================
+
+// Кнопка отправки в форме
+const button = document.querySelector(".section-form__form-left-button");
+
+// Чекбокс в форме
+const chekedPersonalData = document.querySelector(".checkbox");
+
+// Функция отправки данных из формы
+function SendFormInfo() {
+  let klientInformation = document.querySelectorAll(
+    ".section-form__form-left-main-input"
+  );
+  let klientClass = document.querySelector(
+    ".section-form__form-left-main-select"
+  );
+  console.log(klientClass);
+  let order = JSON.stringify({
+    parent_name: klientInformation[2].value,
+    parent_number: klientInformation[3].value,
+    student_name: klientInformation[0].value,
+    student_number: klientInformation[1].value,
+    student_comment: klientInformation[4].value,
+    student_class: klientClass.value,
+  });
+  fetch("/api/callback", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json;charset=utf-8",
+    },
+    body: order,
+  })
+    .then((response) => response.json())
+    .then((result) => {
+      document.dispatchEvent(new CustomEvent("modalclose"));
+    });
+  klientInformation.forEach((e) => {
+    e.value = "";
+  });
+}
+
+// Функция по нажатию кнопки "Оставить заявку"
+button.addEventListener("click", (e) => {
+  e.preventDefault();
+  SendFormInfo();
+  // backgroundStyleChange();
+});
