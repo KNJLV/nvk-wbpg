@@ -87,7 +87,7 @@ function SendFormInfo() {
   let klientClass = document.querySelector(
     ".section-form__form-left-main-select"
   );
-  console.log(klientClass);
+  // console.log(klientClass);
   let order = JSON.stringify({
     parent_name: klientInformation[2].value,
     parent_number: klientInformation[3].value,
@@ -115,6 +115,17 @@ function SendFormInfo() {
 // Функция по нажатию кнопки "Оставить заявку"
 button.addEventListener("click", (e) => {
   e.preventDefault();
-  SendFormInfo();
-  // backgroundStyleChange();
+  if (chekedPersonalData.checked) {
+    if (
+      (studentName.value != "" && studentPhoneNumber.value != "") ||
+      (parentName.value != "" && parentPhoneNumber.value != "")
+    ) {
+      SendFormInfo();
+      // backgroundStyleChange(); 
+    } else {
+      alert("Заполненны не все обязательные поля");
+    }
+  } else {
+    alert("Вы не приняли условия обработки персональных данных");
+  }
 });
