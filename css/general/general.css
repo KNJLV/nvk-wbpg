@@ -57,11 +57,16 @@ body {
 
 /* ====== special text color ====== */
 
-.purple-text {
+.purple-bold-text {
   color: #663399;
   font-weight: 600;
 }
-.bold-text {
+.green-bold-text {
   font-weight: 600;
   color: #557534;
+}
+
+.black-bold-text {
+  color: #564c43;
+  font-weight: 700;
 }

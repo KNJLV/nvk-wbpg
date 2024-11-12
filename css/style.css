@@ -49,3 +49,360 @@
 @import "./footer/footer.css";
 @import "./footer/footer-adaptive.css";
 @import "./footer/footer-mobile.css";
+
+/* ======================================= */
+
+.section-subject {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0px 0px 0px;
+}
+
+.section-subject__title {
+  font-size: 80px;
+  font-weight: 600;
+  color: #b298cb;
+}
+
+.section-subject__list {
+  padding: 50px 0px;
+  min-height: 400px;
+  width: 90%;
+  min-width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 75px 20px;
+  margin: auto;
+  /* flex-wrap: wrap; */
+}
+
+.section-subject__radio {
+  display: none;
+}
+
+.section-subject__list-card {
+  width: 260px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section-subject__list-card-img {
+  width: 70%;
+  height: 70%;
+  opacity: 0.5;
+}
+
+.section-subject__list-card:nth-child(3) > img,
+.section-subject__list-card:nth-child(4) > img {
+  width: 55%;
+  height: 55%;
+}
+
+.section-subject__list-card-name {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.section-subject__list-card:nth-child(1) {
+  background-color: #bfb5ec;
+}
+
+.section-subject__list-card:nth-child(2) {
+  background-color: #b4bfd6;
+}
+
+.section-subject__list-card:nth-child(3) {
+  background-color: #d6b4cb;
+}
+
+.section-subject__list-card:nth-child(4) {
+  background-color: #d6b4b4;
+}
+
+.section-subject__list-card:nth-child(5) {
+  background-color: #f0d4bb;
+}
+
+.section-subject__list-card:nth-child(6) {
+  background-color: #bed6b4;
+}
+
+.section-subject__list-card:hover {
+  filter: brightness(85%);
+  cursor: pointer;
+}
+
+/*  */
+.section-subject__radio {
+  display: none;
+}
+
+/* Стили для выбранной карточки */
+.section-subject__radio:checked + img,
+.section-subject__radio:checked + .section-subject__list-card-name {
+  transform: scale(1.25); /* Масштабирование элементов внутри карточки */
+  opacity: 1;
+}
+
+.section-subject__radio:checked + img + p {
+  font-weight: bold;
+  opacity: 1;
+}
+
+.section-subject__radio:checked + .section-subject__list-card {
+}
+/*  */
+
+@media (max-width: 1650px) {
+  .section-subject__list-card {
+    width: 25%;
+  }
+  .section-subject__list {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+
+/* =================================== */
+
+.section-teacher {
+  margin: auto;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px 100px 0px;
+}
+
+.section-teacher__card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: 620px;
+  gap: 20px;
+  margin: auto;
+  /* min-width: 1100px; */
+}
+
+.section-teacher__card {
+}
+
+.section-teacher__card-description-block > p {
+  font-size: 24px;
+}
+
+.section-teacher__card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  /* min-height: 100%; */
+  gap: 20px;
+  /* min-width: 300px; */
+}
+
+.section-teacher__card-description-block {
+  width: 100%;
+  min-height: 115px;
+  /* min-width: 200px; */
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+
+  gap: 40px;
+}
+
+.section-teacher__card-description-block:nth-child(1) {
+  max-width: 700px;
+}
+
+.section-teacher__card-description-block:nth-child(2) {
+  max-width: 960px;
+}
+
+.section-teacher__card-description-block:nth-child(3) {
+  max-width: 740px;
+}
+
+.section-teacher__card-description-block:nth-child(4) {
+  max-width: 100%;
+}
+
+.section-teacher__card-description-block > p {
+  background-color: #f0d4bb;
+  min-height: 100px;
+  max-height: 150px;
+  width: 100%;
+  z-index: -1;
+  border-radius: 20px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 20px;
+}
+
+.section-teacher__card-photo {
+  align-self: flex-end;
+}
+
+.section-teacher__title {
+  font-size: 80px;
+  font-weight: 600;
+  color: #f0d4bb;
+}
+
+.section-teacher__subtitle {
+  font-size: 36px;
+  font-weight: 600;
+  color: #b8b5bc;
+  margin-bottom: 50px;
+}
+
+/* .section-teacher-card-description-block:nth-child(2) > img {
+  height: 175px;
+} */
+
+.section-teacher__card-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.section-teacher__card-name > h3,
+h4 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 8px;
+}
+
+@media (max-width: 1550px) {
+  .section-teacher__card-description-block > p {
+    font-size: 20px;
+  }
+  .section-teacher__card-description-block:nth-child(1) {
+    max-width: 500px;
+  }
+
+  .section-teacher__card-description-block:nth-child(2) {
+    max-width: 780px;
+  }
+
+  .section-teacher__card-description-block:nth-child(3) {
+    max-width: 540px;
+  }
+
+  .section-teacher__card-description-block:nth-child(4) {
+    max-width: 100%;
+  }
+  .section-teacher__card-photo {
+    width: 450px;
+  }
+  .section-teacher__card-description-block > img {
+    width: 20%;
+  }
+  /* .section-teacher-card-description-block:nth-child(2) > img {
+    min-height: 150px;
+  } */
+  .section-teacher__card-description-block {
+    gap: 15px;
+  }
+  /* .section-teacher-card-description {
+  } */
+  .section-teacher__card-name > h3,
+  h4 {
+    font-size: 36px;
+  }
+
+  /* =============================== */
+  .section-subject__list-card-img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .section-subject__list-card:nth-child(3) > img,
+  .section-subject__list-card:nth-child(4) > img {
+    width: 45%;
+    height: 45%;
+  }
+
+  .section-subject__list-card-name {
+    font-size: 20px;
+  }
+  .section-subject__list {
+    gap: 20px;
+  }
+  .section-subject__list-card {
+    height: 200px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .section-teacher__title {
+    font-size: 60px;
+  }
+  .section-teacher__subtitle {
+    font-size: 26px;
+  }
+  .section-teacher__card-description-block > img {
+    display: none;
+  }
+  .section-teacher__card-wrapper {
+    max-width: 90%;
+    min-height: 0px;
+  }
+  .section-teacher__card-photo {
+    width: 400px;
+  }
+  .section-teacher__card-description-block > p {
+    font-size: 18px;
+  }
+  .section-teacher {
+    padding: 50px 0px 75px 0px;
+  }
+  .section-teacher__card-name > h3,
+  h4 {
+    font-size: 32px;
+  }
+  /* =============================== */
+  .section-subject__title {
+    font-size: 60px;
+  }
+  .section-subject__list-card-img {
+    width: 55%;
+    height: 55%;
+  }
+
+  .section-subject__list-card:nth-child(3) > img,
+  .section-subject__list-card:nth-child(4) > img {
+    width: 40%;
+    height: 40%;
+  }
+
+  .section-subject__list-card-name {
+    font-size: 18px;
+  }
+  .section-subject__list-card {
+    height: 175px;
+  }
+  .section-subject {
+    padding: 75px 0px 0px 0px;
+  }
+}
