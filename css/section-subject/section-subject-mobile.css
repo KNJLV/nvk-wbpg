@@ -1,0 +1,38 @@
+@media (max-device-width: 900px) {
+  .section-subject {
+    padding: 20vw 0 0 0;
+    min-width: 10%;
+  }
+  .section-subject__title {
+    font-size: 10vw;
+  }
+  .section-subject__list-card {
+    width: 45%;
+    height: 40vw;
+    gap: 5vw;
+    padding: 4vw;
+    border-radius: 4vw;
+  }
+  .section-subject__list {
+    padding: 10vw 0;
+    min-height: 100%;
+    width: 95%;
+    gap: 3vw 3vw;
+  }
+  .section-subject__list-card-img {
+    width: 85%;
+    height: 85%;
+  }
+  .section-subject__list-card:nth-child(3) > img,
+  .section-subject__list-card:nth-child(4) > img {
+    width: 60%;
+    height: 60%;
+  }
+  .section-subject__list-card-name {
+    font-size: 3.5vw;
+  }
+  .section-subject__radio:checked + img,
+  .section-subject__radio:checked + .section-subject__list-card-name {
+    transform: scale(1.15);
+  }
+}
