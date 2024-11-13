@@ -87,7 +87,6 @@ function SendFormInfo() {
   let klientClass = document.querySelector(
     ".section-form__form-left-main-select"
   );
-  // console.log(klientClass);
   let order = JSON.stringify({
     parent_name: klientInformation[2].value,
     parent_number: klientInformation[3].value,
@@ -121,7 +120,8 @@ button.addEventListener("click", (e) => {
       (parentName.value != "" && parentPhoneNumber.value != "")
     ) {
       SendFormInfo();
-      // backgroundStyleChange(); 
+      // Окно уведомления об отправке данных
+      // backgroundStyleChange();
     } else {
       alert("Заполненны не все обязательные поля");
     }
@@ -129,3 +129,28 @@ button.addEventListener("click", (e) => {
     alert("Вы не приняли условия обработки персональных данных");
   }
 });
+
+// ==============================================
+
+// Два блока с именем преподавателя
+let teacherName = document.querySelectorAll(".section-teacher__card-name");
+
+// Отслеживание выполнения медиазапроса
+const mediaQuery = window.matchMedia("(max-device-width: 900px)");
+
+// Смена стилей для скрытия одного из блоков
+function applyMobileStyles(e) {
+  if (e.matches) {
+    teacherName[1].classList.add("swap-teacher-name");
+    teacherName[0].classList.remove("swap-teacher-name");
+  } else {
+    teacherName[0].classList.add("swap-teacher-name");
+    teacherName[1].classList.remove("swap-teacher-name");
+  }
+}
+
+// Вызов функции при загрузке страницы
+applyMobileStyles(mediaQuery);
+
+// Слушатель события на изменение ширины окна
+mediaQuery.addEventListener("change", applyMobileStyles);
