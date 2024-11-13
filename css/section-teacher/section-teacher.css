@@ -1,0 +1,118 @@
+.section-teacher {
+  margin: auto;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px 100px 0px;
+}
+
+.section-teacher__card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: 620px;
+  gap: 20px;
+  margin: auto;
+  /* min-width: 1100px; */
+}
+
+.section-teacher__card {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.section-teacher__card-description-block > p {
+  font-size: 24px;
+}
+
+.section-teacher__card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  /* min-height: 100%; */
+  gap: 20px;
+  /* min-width: 300px; */
+}
+
+.section-teacher__card-description-block {
+  width: 100%;
+  min-height: 115px;
+  /* min-width: 200px; */
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+
+  gap: 40px;
+}
+
+.section-teacher__card-description-block:nth-child(1) {
+  max-width: 700px;
+}
+
+.section-teacher__card-description-block:nth-child(2) {
+  max-width: 960px;
+}
+
+.section-teacher__card-description-block:nth-child(3) {
+  max-width: 740px;
+}
+
+.section-teacher__card-description-block:nth-child(4) {
+  max-width: 100%;
+}
+
+.section-teacher__card-description-block > p {
+  background-color: #f0d4bb;
+  min-height: 100px;
+  max-height: 150px;
+  width: 100%;
+  border-radius: 20px;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  padding: 20px;
+}
+
+.section-teacher__card-photo {
+  align-self: flex-end;
+}
+
+.section-teacher__title {
+  font-size: 80px;
+  font-weight: 600;
+  color: #f0d4bb;
+}
+
+.section-teacher__subtitle {
+  font-size: 36px;
+  font-weight: 600;
+  color: #b8b5bc;
+  margin-bottom: 50px;
+}
+
+/* .section-teacher-card-description-block:nth-child(2) > img {
+    height: 175px;
+  } */
+
+.section-teacher__card-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-teacher__card-name > h3,
+h4 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 8px;
+}
+
+.swap-teacher-name {
+  display: none;
+}

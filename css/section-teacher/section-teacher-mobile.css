@@ -1,0 +1,63 @@
+@media (max-device-width: 900px) {
+  .section-teacher {
+    padding: 10vw 0 10vw 0;
+    min-width: 10%;
+  }
+  .section-teacher__card-wrapper {
+    min-height: 100%;
+    gap: 5vw;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section-teacher__card-description-block > p {
+    font-size: 3.5vw;
+  }
+  .section-teacher__card-description {
+    gap: 3vw;
+  }
+  .section-teacher__card-description-block {
+    width: 100%;
+    gap: 4vw;
+    min-height: 0vw;
+  }
+  .section-teacher__card-description-block:nth-child(1) {
+    max-width: 100%;
+  }
+  .section-teacher__card-description-block:nth-child(2) {
+    max-width: 100%;
+  }
+  .section-teacher__card-description-block:nth-child(3) {
+    max-width: 100%;
+  }
+  .section-teacher__card-description-block:nth-child(4) {
+    max-width: 100%;
+  }
+  .section-teacher__card-description-block > p {
+    background-color: #f0d4bb;
+    min-height: 20vw;
+    max-height: 20vw;
+    width: 100%;
+    border-radius: 5vw;
+    padding: 4vw;
+  }
+  .section-teacher__title {
+    font-size: 9vw;
+  }
+  .section-teacher__subtitle {
+    font-size: 4vw;
+    margin-bottom: 10vw;
+  }
+  .section-teacher__card-photo {
+    align-self: center;
+    width: 75%;
+  }
+  .section-teacher__card-name > h3 {
+    font-size: 4vw;
+    letter-spacing: 1vw;
+  }
+  .section-teacher__card-name > h4 {
+    font-size: 9vw;
+    letter-spacing: 1vw;
+  }
+}
