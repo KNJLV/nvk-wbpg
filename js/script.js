@@ -154,3 +154,7 @@ applyMobileStyles(mediaQuery);
 
 // Слушатель события на изменение ширины окна
 mediaQuery.addEventListener("change", applyMobileStyles);
+
+// Выбранный предмент
+let subjectButton = document.querySelectorAll(".section-subject__radio");
+subjectButton[4].checked = true;
