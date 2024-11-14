@@ -2,6 +2,9 @@
   .header-wrapper {
     padding: 0px;
   }
+  .header__upper {
+    height: 200px;
+  }
   .header__upper-title-str {
     font-size: 52px;
     font-weight: 700;
@@ -47,8 +50,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    height: 200px;
+    /* margin-top: 40px; */
+    /* margin-bottom: 30px; */
     max-width: 1650px;
     padding: 0px 40px;
   }
