@@ -53,6 +53,13 @@
     > .section-course__list-card-header-left-str-title {
     font-size: 34px;
   }
+  .section-course__list-card:nth-child(3)
+    > .section-course__list-card-header
+    > .section-course__list-card-header-left
+    > .section-course__list-card-header-left-str
+    > .section-course__list-card-header-left-str-title {
+    font-size: 38px;
+  }
   #lectory-icon {
     width: 40%;
   }
