@@ -82,8 +82,9 @@
     height: 60%;
   }
   .section-form__form-right-social-icon {
-    width: 12vw;
-    margin-left: 4vw;
+    height: 9vw;
+    width: 15%;
+    margin-left: 1.5vw;
   }
   .section-form__form-left-main-select {
     background-image: url(../../assets/section-form/select-arrow-icon.png);
