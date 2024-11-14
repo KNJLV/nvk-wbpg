@@ -33,7 +33,7 @@
   font-size: 24px;
 }
 .section-differ__list-card-img {
-  width: 12vw;
+  width: 14vw;
   align-self: flex-end;
 }
 .section-differ__list-card:nth-child(2) > img {
