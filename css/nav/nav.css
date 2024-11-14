@@ -23,6 +23,7 @@
 }
 .nav__list-el-link {
   font-size: 20px;
+  font-weight: 600;
   padding: 10px 0px;
 }
 .nav__button {
